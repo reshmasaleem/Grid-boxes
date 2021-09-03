@@ -1,0 +1,33 @@
+.box1 { grid-area: box1; }
+.box2 { grid-area: box2; }
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    ' box1 box1 box2 box2 box2'
+    ' box1 box1 box2 box2 box2'
+    ' box1 box1 box2 box2 box2'
+    ' box1 box1 box2 box2 box2';
+  grid-gap: 10px; 
+  background-color: white; 
+  padding: 10px;
+}
+
+.grid-container > .box1 {
+  background-color: black;
+  padding: 500px 0px; 
+  
+}
+.grid-container > .box2 {
+    background-color: black;
+    padding: 200px 0; 
+}
+
+
+
+
+
+
+
