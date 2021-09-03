@@ -1,0 +1,14 @@
+.box1 { grid-area: box1; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    ' box1 ';
+  grid-gap: 10px; 
+  padding: 10px;
+}
+
+.grid-container > .box1 {
+  background-color: black;
+  padding: 400px ; 
+}
